@@ -87,7 +87,7 @@ elif st.session_state.page == 'simulation':
 
 
 elif st.session_state.page == "references":
-    st.header("Academic References (APA 7)")
+    st.header("Academic References")
     
     st.subheader("1. 24-bit Precision & Patriot Missile Analysis")
     st.markdown("""
