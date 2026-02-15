@@ -88,7 +88,8 @@ elif st.session_state.page == 'simulation':
 
 elif st.session_state.page == "references":
     st.header("References")
-    st.write("This is where the references will go.")
+    st.write("Still a work in progress at the moment.")
+    
     if st.button("back"):
         home()
         st.rerun()
