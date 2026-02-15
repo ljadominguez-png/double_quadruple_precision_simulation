@@ -87,10 +87,27 @@ elif st.session_state.page == 'simulation':
 
 
 elif st.session_state.page == "references":
-    st.header("References")
-    st.write("Still a work in progress at the moment.")
+    st.header("Academic References (APA 7)")
     
-    if st.button("back"):
+    st.subheader("1. 24-bit Precision & Patriot Missile Analysis")
+    st.markdown("""
+    * **Arnold, D. N. (2000).** [The Disaster of the Patriot Missile](https://www-users.cse.umn.edu/~arnold/disasters/patriot.html)
+    * **Institute of Electrical and Electronics Engineers. (1985).** [IEEE Standard 754-1985 for Binary Floating-Point Arithmetic](https://ieeexplore.ieee.org/document/30711)
+    * **Marshall, E. (1992).** [Fatal Error: How Patriot Missed](https://www.science.org/doi/10.1126/science.255.5050.1347)
+    * **Skeel, R. D. (1992).** [Roundoff Error and the Patriot Missile](https://faculty.math.illinois.edu/~skeel/skeel_patriot.pdf)
+    * **U.S. General Accounting Office. (1992).** [Patriot Missile Defense: Software Problem Led to System Failure at Dhahran](https://www.gao.gov/products/imtec-92-26)
+    """)
+
+    st.subheader("2. 64-bit & 128-bit Standards (NASA/Supercomputing)")
+    st.markdown("""
+    * **Gupta, A. (2019).** [What’s the Difference Between Single, Double, Multi and Mixed Precision Computing?](https://blogs.nvidia.com/blog/whats-the-difference-between-single-double-multi-and-mixed-precision-computing/)
+    * **HPCwire. (2018).** [The Role of Quadruple Precision in Future Exascale Computing](https://www.hpcwire.com/2018/06/13/why-the-worlds-fastest-supercomputer-matters/)
+    * **Institute of Electrical and Electronics Engineers. (2019).** [IEEE Standard 754-2019 for Floating-Point Arithmetic](https://ieeexplore.ieee.org/document/8766229)
+    * **Muller, J. M. (2018).** [Handbook of Floating-Point Arithmetic (2nd ed.)](https://link.springer.com/book/10.1007/978-3-319-76526-6)
+    * **NASA Jet Propulsion Laboratory. (2022).** [How Many Decimals of Pi Do We Really Need?](https://www.jpl.nasa.gov/edu/news/2016/3/16/how-many-decimals-of-pi-do-we-really-need/)
+    """)
+    
+    if st.button("Back to Home"):
         home()
         st.rerun()
 
