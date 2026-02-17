@@ -125,7 +125,7 @@ elif st.session_state.page == "double":
         val_64 = doubleprecision('0.1')
         bin_64 = sixtyfourbits(val_64)
         #drift calculation
-        target = Decimal('0.1')
+        target = Decimal('0.1')#the target value we want to reach, which is 0.1 in this case, we will compare the binary representation of 0.1 in 24-bit and 64-bit to this target value to calculate the drift
         total_ticks = hours * 3600 * 10 #Multiplying by 3,600 converts the Hours to seconds * 10 because 10 ticks per second
 
         drift_24 = abs(target - Decimal(str(bin_24))) * total_ticks
