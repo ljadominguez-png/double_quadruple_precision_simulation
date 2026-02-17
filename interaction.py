@@ -100,8 +100,8 @@ elif st.session_state.page == "references":
 
     st.subheader("2. 64-bit & 128-bit Standards (NASA/Supercomputing)")
     st.markdown("""
+    * **Bailey, D. H. (2019).** [Reproducibility and Variable Precision Computing in Exascale Systems](https://www.davidhbailey.com/dhbpapers/repro-varprec.pdf)
     * **Gupta, A. (2019).** [What’s the Difference Between Single, Double, Multi and Mixed Precision Computing?](https://blogs.nvidia.com/blog/whats-the-difference-between-single-double-multi-and-mixed-precision-computing/)
-    * **HPCwire. (2018).** [The Role of Quadruple Precision in Future Exascale Computing](https://www.hpcwire.com/2018/06/13/why-the-worlds-fastest-supercomputer-matters/)
     * **Institute of Electrical and Electronics Engineers. (2019).** [IEEE Standard 754-2019 for Floating-Point Arithmetic](https://ieeexplore.ieee.org/document/8766229)
     * **Muller, J. M. (2018).** [Handbook of Floating-Point Arithmetic (2nd ed.)](https://link.springer.com/book/10.1007/978-3-319-76526-6)
     * **NASA Jet Propulsion Laboratory. (2022).** [How Many Decimals of Pi Do We Really Need?](https://www.jpl.nasa.gov/edu/news/2016/3/16/how-many-decimals-of-pi-do-we-really-need/)
